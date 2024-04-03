@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+     table {
+      border: 1px solid black;
+     
+      width: 50%;
+      
+    }
+
+    td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+    .checked {
+  color: orange;
+}
+
+body{
+  margin-top: 30px;
+  padding-left: 200px;
+}
+
+
+
+</style>
+<body>
+    
+    <table>
+        <tr>
+           <td><b>Name</b><span style="color:red">*</span></td>
+        </tr> 
+      
+       <tr><td>
+        <div style="display: inline-block;">
+        <input type="text" name="" id="Firstname">  <br>
+          <label for="Firstname">First</label>
+        </div>
+
+        <div style="display: inline-block;">
+         <input type="text" name="" id="Lastname"><br>
+         <label for="Lastname">Last</label>
+        </div>
+    </td></tr> 
+
+    <tr>
+        <td>  <div style="display: inline-block;">
+            <label for="email"><b>Email</b><span style="color:red">*</span></label> <br>
+            <input type="text" name="" id="email" style="padding-right:30%"><br>
+            
+           </div></td>
+    </tr>
+
+    <tr>
+        <td><b>Your Experience</b><span style="color:red">*</span></td>
+      
+    </tr>
+
+    <tr> <td>  
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span></td>
+      </tr>
+
+      <tr><td>Overall, how would you rate our experience with us?</td></tr>
+      <tr><td><b>How satisfied are you with</b><span style="color:red">*</span></td></tr>
+
+     
+        <tr><td>Purchase
+            
+            <div style="display: inline-block; padding-left: 100px;">
+            <label for="Very staisfied">Very staisfied</label><br>
+            <input type="radio" name="" id="Very staisfied">
+          </div>
+        
+        
+
+        <div style="display: inline-block; padding-left: 20px;">
+            <label for="Unsatisfied">Unsatisfied</label><br>
+            <input type="radio" name="" id="Unsatisfied">
+          </div>
+    
+    
+          <div style="display: inline-block; padding-left: 20px;">
+            <label for="Neutral">Neutral</label><br>
+            <input type="radio" name="" id="Neutral">
+          </div>
+        
+          <div style="display: inline-block; padding-left: 20px;">
+            <label for="Satisfied">Satisfied</label><br>
+            <input type="radio" name="" id="Satisfied">
+          </div>
+    
+          <div style="display: inline-block; padding-left: 20px;">
+            <label for="Very satisfied">Very satisfied</label><br>
+            <input type="radio" name="" id="Very satisfied">
+          </div></td>
+
+        </tr>
+
+        <tr><td>Service
+            <div style="display: inline-block; padding-left: 110px;">
+           <input type="radio" name="" id="Very staisfied">
+          </div> 
+
+        <div style="display: inline-block; padding-left: 85px;">
+        <input type="radio" name="" id="Unsatisfied">
+          </div>
+    
+    
+        <div style="display: inline-block; padding-left: 70px;">
+        <input type="radio" name="" id="Neutral">
+          </div>
+        
+        <div style="display: inline-block; padding-left: 50px;">
+        <input type="radio" name="" id="Satisfied">
+          </div>
+    
+        <div style="display: inline-block; padding-left: 55px;">
+        <input type="radio" name="" id="Very satisfied">
+          </div></td>
+
+        </tr>
+
+        <tr><td>Company Overall
+        <div style="display: inline-block; padding-left: 45px;">
+        <input type="radio" name="" id="Very staisfied">
+          </div>
+
+        <div style="display: inline-block; padding-left: 85px;">
+        <input type="radio" name="" id="Unsatisfied">
+          </div>
+    
+    
+        <div style="display: inline-block; padding-left: 70px;">
+        <input type="radio" name="" id="Neutral">
+          </div>
+        
+        <div style="display: inline-block; padding-left: 50px;">
+        <input type="radio" name="" id="Satisfied">
+          </div>
+    
+        <div style="display: inline-block; padding-left: 55px;">
+        <input type="radio" name="" id="Very satisfied">
+          </div></td>
+
+        </tr>
+     
+
+     <tr><td><b>How likely are you to</b><span style="color:red">*</span></td></tr>
+     
+     <tr><td>Buy from us again
+            
+      <div style="display: inline-block; padding-left: 110px;">
+      <label for="Very staisfied">Very staisfied</label><br>
+      <input type="radio" name="" id="Very staisfied">
+    </div>
+  
+  
+
+  <div style="display: inline-block; padding-left: 20px;">
+      <label for="Unsatisfied">Unsatisfied</label><br>
+      <input type="radio" name="" id="Unsatisfied">
+    </div>
+
+
+    <div style="display: inline-block; padding-left: 20px;">
+      <label for="Neutral">Neutral</label><br>
+      <input type="radio" name="" id="Neutral">
+    </div>
+  
+    <div style="display: inline-block; padding-left: 20px;">
+      <label for="Satisfied">Satisfied</label><br>
+      <input type="radio" name="" id="Satisfied">
+    </div>
+
+    <div style="display: inline-block; padding-left: 20px;">
+      <label for="Very satisfied">Very satisfied</label><br>
+      <input type="radio" name="" id="Very satisfied">
+    </div></td>
+
+  </tr>
+
+  <tr><td>Recommend our product to others
+      <div style="display: inline-block; padding-left: 10px;">
+     <input type="radio" name="" id="Very staisfied">
+    </div>
+  
+  
+
+  <div style="display: inline-block; padding-left: 85px;">
+  <input type="radio" name="" id="Unsatisfied">
+    </div>
+
+
+  <div style="display: inline-block; padding-left: 75px;">
+  <input type="radio" name="" id="Neutral">
+    </div>
+  
+  <div style="display: inline-block; padding-left: 45px;">
+  <input type="radio" name="" id="Satisfied">
+    </div>
+
+  <div style="display: inline-block; padding-left: 55px;">
+  <input type="radio" name="" id="Very satisfied">
+    </div></td>
+
+  </tr>
+
+  <tr><td>Recommend our company to others
+  <div style="display: inline-block; padding-left: 1px;">
+  <input type="radio" name="" id="Very staisfied">
+    </div>
+  
+  
+
+  <div style="display: inline-block; padding-left: 85px;">
+  <input type="radio" name="" id="Unsatisfied">
+    </div>
+
+
+  <div style="display: inline-block; padding-left: 75px;">
+  <input type="radio" name="" id="Neutral">
+    </div>
+  
+  <div style="display: inline-block; padding-left: 45px;">
+  <input type="radio" name="" id="Satisfied">
+    </div>
+
+  <div style="display: inline-block; padding-left: 55px;">
+  <input type="radio" name="" id="Very satisfied">
+    </div></td>
+
+  </tr>
+
+      <tr><td><div style="display: inline-block;">
+        <label for="comment"><b>Additional comments or Suggestions</b></label><br>
+        <input type="text" name="" id="comment" style="padding:30px; padding-right: 200px;">
+      </div></td>
+    </tr>
+
+      <tr><td>
+        <button>Submit</button>
+      </td></tr>
+    </table>
+</body>
+</html>
